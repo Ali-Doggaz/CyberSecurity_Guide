@@ -1,0 +1,50 @@
+PASSWORD
+cupp -i  :: genere une wordlist personalisée au user (on devra repondre a des questions)
+ensuite:
+sed -ri '/^.{,7}$/d' perso.txt            # remove shorter than 8
+sed -ri '/[!-/:-@\[-`\{-~]+/!d' perso.txt # remove no special chars
+sed -ri '/[0-9]+/!d' perso.txt	 # remove no numbers
+
+USERNAME :
+ a script that would take First/Last name as its arguments and create the username wordlist: git clone https://github.com/21y4d/usernameGenerator.git
+	usage: bash usernameGenerator/usernameGenerator.sh <firstName> <Lastname> (no "")
+
+
+
+Rq: Many great tools do word mangling and case permutation quickly and easily, like rsmangler or The Mentalist. These tools have many other options, which can make any small wordlist reach millions of lines long. 
+
+RQ: we can use "Crunch" to generate perso. wordlists following certain patterns:
+ 	crunch <minimum length> <maximum length> <charset> -t <pattern> -o <output file>
+	  *The pattern can contain "@," representing lower case characters, "," (comma) will insert upper case characters, "%" will insert numbers, and "^" will insert symbols.
+
+    and we can use Princeprocessor to combine the words of a certain wordlist and generate a new wordlist with these combinations
+	Ali@htb[/htb]$ wget https://github.com/hashcat/princeprocessor/releases/download/v0.22/princeprocessor-0.22.7z
+	Ali@htb[/htb]$ 7z x princeprocessor-0.22.7z
+	Ali@htb[/htb]$ cd princeprocessor-0.22
+	Ali@htb[/htb]$ ./pp64.bin -h
+	Usage:
+		The "--keyspace" option can be used to find the number of combinations produced from the input wordlist.
+		./pp64.bin --keyspace < words to know how many pswd can be generated
+		and then 
+		./pp64.bin -o wordlist.txt < words to generate the wordlist
+		   RQ: By default, princeprocessor only outputs words up to 16 in length. This can be controlled using 
+		the "--pw-min" and "--pw-max" arguments.
+		   RQ:  The number of elements per word can be controlled using "--elem-cnt-min" and "--elem-cnt-max". 
+		These values ensure that number of elements in an output word is above or below the given value.
+
+     and we can use "CeWL" to generate wordlists from a blog content/keywords
+	cewl -d <depth to spider> -m <minimum word length> -w <output wordlist> <url of website>
+	cewl -d 5 -m 6 -e http://inlanefreight.com/blog -w wordlist.txt
+	The length of the outputted words can be altered using the "-m" parameter (min length)
+	
+	
+
+     and we can use "KWPROCESSOR" to follow patterns on the keyboard "AZERTY" "QWERTY" "AZERTYQSDFG" ....
+        git clone https://github.com/hashcat/kwprocessor
+	cd kwprocessor
+	make	
+	Usage:
+		Ali@htb[/htb]$ kwp -s 1 basechars/full.base keymaps/en-us.keymap  routes/2-to-10-max-3-direction-changes.route
+		The command above generates words with characters reachable while holding shift (-s), using the full base, the standard en-us keymap, and 3 direction changes route.
+    
+

