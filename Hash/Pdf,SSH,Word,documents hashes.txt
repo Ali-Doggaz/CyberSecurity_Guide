@@ -1,0 +1,29 @@
+To extract the hash from the document:
+Ali@htb[/htb]$ sudo git clone https://github.com/magnumripper/JohnTheRipper.git
+Ali@htb[/htb]$ cd JohnTheRipper/src
+Ali@htb[/htb]$ sudo ./configure && make
+
+IMPORTANT:
+----------------
+There are also Python ports of most of these tools available that are very easy to work with. The majority of them are contained in the JohnTheRipper jumbo GitHub repo here: https://github.com/openwall/john/tree/bleeding-jumbo/run
+
+One additional tool ported to Python by @Harmj0y is the keepass2john.py tool for extracting a crackable hash from KeePass 1.x/2.x databases that can be run through Hashcat
+----------------
+
+Example1 - Microsoft word:
+download: https://raw.githubusercontent.com/magnumripper/JohnTheRipper/bleeding-jumbo/run/office2john.py
+Ali@htb[/htb]$ python office2john.py hashcat_Word_example.docx 
+
+Example 2 - Cracking Password Protected Zip Files:
+download: https://github.com/openwall/john/blob/bleeding-jumbo/src/zip2john.c
+
+Ali@htb[/htb]$ zip2john ~/Desktop/HTB/Academy/Cracking\ with\ Hashcat/blueprints.zip  (we need the entire hash starting from $pkzip2$1 and ending with /pkzip2$. )
+
+Example 3 - Cracking Password Protected KeePass Files
+https://gist.githubusercontent.com/HarmJ0y/116fa1b559372804877e604d7d367bbc/raw/c0c6f45ad89310e61ec0363a69913e966fe17633/keepass2john.py
+Ali@htb[/htb]$ python keepass2john.py Master.kdbx 
+
+Example 4 - Cracking Protected PDF Files
+https://raw.githubusercontent.com/truongkma/ctf-tools/master/John/run/pdf2john.py
+Ali@htb[/htb]$ python pdf2john.py inventory.pdf | awk -F":" '{ print $2}'
+

@@ -1,0 +1,21 @@
+!!!IMPORTANT IMPORTANT!!! HASHID n'est pas toujours fiable!!! Le 1er/2eme resultat ne sont pas toujours bons!!!! sur un des exercices, le 5eme resultat était le bon
+
+By default, hashcat stores all cracked passwords in the hashcat.potfile file; the format is hash:password. 
+we can use this list as a wordlist
+
+cut -d: -f 2- ~/hashcat.potfile
+
+Reject Rules (reject passwords that do not meet the paswd criteria:
+
+*Note: Reject rules only work either with hashcat-legacy, or when using
+ -j or -k with Hashcat. They will not work as regular rules (in a rule file) with Hashcat. *
+
+first create the rule: echo 'so0 si1 se3 ss5 sa@ c $2 $0 $1 $9' > rule.txt
+echo 'password_ilfreight' > test.txt and hashcat -r rule.txt test.txt --stdout   to test the rule
+then, brute force! :
+hashcat -a 0 -m 100 hash /opt/useful/SecLists/Passwords/Leaked-Databases/rockyou.txt -r rule.txt
+
+Hashcat supports the usage of multi-rules with repeated use of the -r flag
+Hashcat installs with a variety of rules by default. They can be found in the rules folder:/usr/share/hashcat/rules/
+There are a variety of publicly available rules as well, such as the nsa-rules, Hob0Rules, and the corporate.rule 
+
