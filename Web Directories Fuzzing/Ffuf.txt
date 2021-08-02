@@ -1,0 +1,12 @@
+Finding extensions tip^:
+Before we start fuzzing, we must specify which file that extension would be at the end of! We can always use two wordlists
+and have a unique keyword for each, and then do FUZZ_1.FUZZ_2 to fuzz for both. However, there is one file we can always 
+find in most websites, which is index.*, so we will use it as our file and fuzz extensions on it.
+
+
+-s pour silent mode , -c colorized output (yay)
+
+
+In many cases, many websites would actually have sub-domains that are not public and will not publish them in public DNS records, and hence if we visit them in a browser, we would fail to connect, as the public DNS would not know their IP.
+This is where we utilize VHosts Fuzzing on an IP we already have. We will run a scan and test for scans on the same IP, and then we will be able to identify both public and non-public sub-domains and VHosts.
+
