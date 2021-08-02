@@ -1,0 +1,5 @@
+filters: 
+   "host ip" equivalent à "adresse ip soit dans src, soit dans dest, soit les deux"
+
+Pour passer le resultat d'une capture à GREP, on utilise le flag l:
+ sudo tcpdump -r file.cap -l | grep "query"
