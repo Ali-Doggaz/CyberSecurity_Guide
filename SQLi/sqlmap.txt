@@ -1,0 +1,30 @@
+Inject Cookies:
+	While SQLMap, by default, targets only the HTTP parameters, it is possible to test the headers for the
+  SQLi vulnerability. The easiest way is to specify the "custom" injection mark after the header's value 
+  (e.g. --cookie="id=1*"). The same principle applies to any other part of the request.
+
+RQ POST REQUEST:
+   Je viens de tester une post request --data="id:1*" qui n'a pas marché, 
+alors que en JSON ( --data='{"id": 1}' ) ca a marché!!! WTF?
+RQ: si on utilise un fichier request.txt (-r), on peut modifier POST par HTTP 
+pour que SQLMAP detecte l'injection JSON
+
+
+By-passing problems: 
+
+	In case of immediate problems (e.g., HTTP error code 5XX from the start) while running SQLMap, one of the first things we should think of is the potential blacklisting of the default user-agent used by SQLMap (e.g. User-agent: sqlmap/1.4.9 (http://sqlmap.org)).
+	This is trivial to bypass with the switch --random-agent, which changes the default user-agent with a randomly chosen value from a large pool of values used by browsers.
+
+	Finally, one of the most popular mechanisms implemented in SQLMap for bypassing WAF/IPS solutions is the so-called "tamper" scripts.
+	Tamper scripts can be chained, one after another, within the --tamper option (e.g. --tamper=between,randomcase), where they are run based on their predefined priority
+	To get a whole list of implemented tamper scripts, along with the description as above, switch --list-tampers can be used
+
+	Out of other protection bypass mechanisms, there are also two more that should be mentioned. The first one is the Chunked transfer encoding, turned on using the switch -chunked, which splits the POST request's body into so-called "chunks." Blacklisted SQL keywords are split between chunks in a way that the request containing them can pass unnoticed.
+
+	The other bypass mechanisms is the HTTP parameter pollution (HPP), where payloads are split in a similar way as in case of --chunked between different same parameter named values (e.g. ?id=1&id=UNION&id=SELECT&id=username,password&id=FROM&id=users...), which are concatenated by the target platform if supporting it (e.g. ASP).
+
+	CSRF-TOKEN : RQ, you need to check the post request parameters (when clicking on button/submitting/...),
+and try to find the name of the parameter that contains the csrf-token. Then just use the flag --csrf-token="{token_name}" in sqlmap and in your --data
+
+ 	Unique value parameter bypass: ( avoir un param unique a chaque request ) 
+	sqlmap -u "http://www.example.com/?id=1&rp=29125" --randomize=rp --batch -v 5 | grep URI
