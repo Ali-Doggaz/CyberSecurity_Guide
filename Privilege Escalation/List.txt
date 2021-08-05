@@ -1,0 +1,2 @@
+You will find here a list of ALL know priv. escalation techniques:
+https://gtfobins.github.io/
