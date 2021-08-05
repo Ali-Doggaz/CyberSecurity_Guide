@@ -20,5 +20,7 @@ This is an introductory guide to cybersecurity and bug bounty.
 
 
 # Sources:
+
  1- HackTheBox Academy
+ 
  2- TryHackMe rooms and guides
