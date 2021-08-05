@@ -15,8 +15,10 @@ This is an introductory guide to cybersecurity and bug bounty.
  
  6- Web Directories Fuzing (Ffuf)
 
+ 7- Privilege escalation 
 
 
 
 # Sources:
  1- HackTheBox Academy
+ 2- TryHackMe rooms and guides
