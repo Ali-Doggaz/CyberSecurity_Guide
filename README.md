@@ -43,7 +43,7 @@ This is an introductory guide to cybersecurity and bug bounty.
 
  **More introductory CTFs**
  - [X] RootMe
- - [ ] Vulnversity - https://tryhackme.com/room/vulnversity
+ - [X] Vulnversity - https://tryhackme.com/room/vulnversity
  - [ ] Blue - https://tryhackme.com/room/blue
  - [ ] Simple CTF https://tryhackme.com/room/easyctf
  - [ ] Bounty Hacker https://tryhackme.com/room/cowboyhacker
@@ -60,7 +60,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] OWASP top 10 https://tryhackme.com/room/owasptop10
  - [ ] Inclusion https://tryhackme.com/room/inclusion
  - [ ] Injection https://tryhackme.com/room/injection
- - [ ] Vulnversity https://tryhackme.com/room/vulnversity
+ - [X] Vulnversity https://tryhackme.com/room/vulnversity
  - [ ] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
  - [ ] Juiceshop https://tryhackme.com/room/owaspjuiceshop
  - [ ] Ignite https://tryhackme.com/room/ignite
