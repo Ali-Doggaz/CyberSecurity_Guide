@@ -20,29 +20,29 @@ This is an introductory guide to cybersecurity and bug bounty.
 # Rooms Path
 
  # Level 1 - Intro
- - [ ] OpenVPN https://tryhackme.com/room/openvpn
- - [ ] Welcome https://tryhackme.com/jr/welcome
- - [ ] Intro to Researching https://tryhackme.com/room/introtoresearch
- - [ ] Learn Linux https://tryhackme.com/room/zthlinux
- - [ ] Crash Course Pentesting https://tryhackme.com/room/ccpentesting
+ - [X] OpenVPN https://tryhackme.com/room/openvpn
+ - [X] Welcome https://tryhackme.com/jr/welcome
+ - [X] Intro to Researching https://tryhackme.com/room/introtoresearch
+ - [X] Learn Linux https://tryhackme.com/room/zthlinux
+ - [X] Crash Course Pentesting https://tryhackme.com/room/ccpentesting
 
- **Introductory CTFs to get your feet wet**
+ **Intductory CTFs to get your feet wet**
 
  - [ ] Google Dorking https://tryhackme.com/room/googledorking
  - [ ] OHsint https://tryhackme.com/room/ohsint
  - [ ] Shodan.io https://tryhackme.com/room/shodan
 
  # Level 2 - Tooling
- - [ ] Tmux https://tryhackme.com/room/rptmux
- - [ ] Nmap https://tryhackme.com/room/rpnmap
- - [ ] Web Scanning https://tryhackme.com/room/rpwebscanning
+ - [X] Tmux https://tryhackme.com/room/rptmux
+ - [X] Nmap https://tryhackme.com/room/rpnmap
  - [ ] Sublist3r https://tryhackme.com/room/rpsublist3r
  - [ ] Metasploit https://tryhackme.com/room/rpmetasploit
- - [ ] Hydra https://tryhackme.com/room/hydra
+ - [X] Hydra https://tryhackme.com/room/hydra
  - [ ] Linux Privesc https://tryhackme.com/room/linuxprivesc
  - [ ] Web Scanning https://tryhackme.com/room/rpwebscanning
 
  **More introductory CTFs**
+ - [X] RootMe
  - [ ] Vulnversity - https://tryhackme.com/room/vulnversity
  - [ ] Blue - https://tryhackme.com/room/blue
  - [ ] Simple CTF https://tryhackme.com/room/easyctf
