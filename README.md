@@ -44,7 +44,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  **More introductory CTFs**
  - [X] RootMe
  - [X] Vulnversity - https://tryhackme.com/room/vulnversity
- - [ ] Blue - https://tryhackme.com/room/blue
+ - [X] Blue - https://tryhackme.com/room/blue
  - [ ] Simple CTF https://tryhackme.com/room/easyctf
  - [ ] Bounty Hacker https://tryhackme.com/room/cowboyhacker
 
