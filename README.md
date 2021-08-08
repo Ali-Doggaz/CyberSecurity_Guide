@@ -46,7 +46,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [X] Vulnversity - https://tryhackme.com/room/vulnversity
  - [X] Blue - https://tryhackme.com/room/blue
  - [X] Simple CTF https://tryhackme.com/room/easyctf
- - [ ] Bounty Hacker https://tryhackme.com/room/cowboyhacker
+ - [X] Bounty Hacker https://tryhackme.com/room/cowboyhacker
 
  # Level 3 - Crypto & Hashes with CTF practice
  - [ ] Crack the hash https://tryhackme.com/room/crackthehash
