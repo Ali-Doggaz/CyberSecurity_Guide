@@ -22,7 +22,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  # Level 1 - Intro
  - [X] OpenVPN https://tryhackme.com/room/openvpn
  - [X] Welcome https://tryhackme.com/jr/welcome
- - [X] Intro to Researching https://tryhackme.com/room/introtoresearch
+ - [ ] Intro to Researching https://tryhackme.com/room/introtoresearch
  - [X] Learn Linux https://tryhackme.com/room/zthlinux
  - [X] Crash Course Pentesting https://tryhackme.com/room/ccpentesting
 
