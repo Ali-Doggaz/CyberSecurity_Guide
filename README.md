@@ -17,7 +17,7 @@ This is an introductory guide to cybersecurity and bug bounty.
 
  7- Privilege escalation 
 
-# Rooms Path
+# [FREE] THM Rooms Path
 
  # Level 1 - Intro
  - [X] OpenVPN https://tryhackme.com/room/openvpn
