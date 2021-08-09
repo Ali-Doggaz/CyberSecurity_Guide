@@ -50,7 +50,7 @@ This is an introductory guide to cybersecurity and bug bounty.
 
  # Level 3 - Crypto & Hashes with CTF practice
  - [X] Crack the hash https://tryhackme.com/room/crackthehash
- - [ ] Agent Sudo https://tryhackme.com/room/agentsudoctf
+ - [X] Agent Sudo https://tryhackme.com/room/agentsudoctf
  - [ ] The Cod Caper https://tryhackme.com/room/thecodcaper
  - [ ] Ice https://tryhackme.com/room/ice
  - [X] Lazy Admin https://tryhackme.com/room/lazyadmin
