@@ -42,6 +42,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Web Scanning https://tryhackme.com/room/rpwebscanning
 
  **More introductory CTFs**
+ - [X] Mr. Robot  - https://tryhackme.com/room/mrrobot
  - [X] RootMe
  - [X] Vulnversity - https://tryhackme.com/room/vulnversity
  - [X] Blue - https://tryhackme.com/room/blue
