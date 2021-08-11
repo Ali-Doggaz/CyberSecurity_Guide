@@ -42,12 +42,12 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Web Scanning https://tryhackme.com/room/rpwebscanning
 
  **More introductory CTFs**
- - [X] Mr. Robot  - https://tryhackme.com/room/mrrobot
  - [X] RootMe
  - [X] Vulnversity - https://tryhackme.com/room/vulnversity
  - [X] Blue - https://tryhackme.com/room/blue
  - [X] Simple CTF https://tryhackme.com/room/easyctf
  - [X] Bounty Hacker https://tryhackme.com/room/cowboyhacker
+ - [X] Mr. Robot (Intermediate/Beginner) - https://tryhackme.com/room/mrrobot 
 
  # Level 3 - Crypto & Hashes with CTF practice
  - [X] Crack the hash https://tryhackme.com/room/crackthehash
