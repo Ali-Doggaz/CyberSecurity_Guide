@@ -58,6 +58,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [X] Ice https://tryhackme.com/room/ice
  - [X] Lazy Admin https://tryhackme.com/room/lazyadmin
  - [x] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
+ - [X] Capture the flag https://tryhackme.com/room/c4ptur3th3fl4g
 
  # Level 4 - Web
  - [ ] OWASP top 10 https://tryhackme.com/room/owasptop10
@@ -91,7 +92,6 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Blaster https://tryhackme.com/room/blaster
  - [ ] Ignite https://tryhackme.com/room/ignite
  - [ ] Kenobi https://tryhackme.com/room/kenobi
- - [X] Capture the flag https://tryhackme.com/room/c4ptur3th3fl4g
  - [ ] Pickle Rick https://tryhackme.com/room/picklerick
 
  # Level 7 - CTF practice
