@@ -1,21 +1,23 @@
 # CyberSecurity_Guide
 This is an introductory guide to cybersecurity and bug bounty.
 
-# Topics Covered 
+# Topics/Tools Covered Above (check the folders) 
 
- 1- Network Traffic Analysis (tcpdump, wireshark)
+   &nbsp;&nbsp; You will find cheatsheets for the following topics: 
  
- 2- SQL Injection (sqlmap)
- 
- 3- Bruteforce Online Forms (Hydra)
- 
- 4- Hashes Bruteforcing (Hashcat)
- 
- 5- Network Discovery (Nmap)
- 
- 6- Web Directories Fuzing (Ffuf)
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1- Network Traffic Analysis (tcpdump, wireshark)
 
- 7- Privilege escalation 
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2- SQL Injection (sqlmap)
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3- Bruteforce Online Forms (Hydra)
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4- Hashes Bruteforcing (Hashcat)
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5- Network Discovery (Nmap)
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6- Web Directories Fuzing (Ffuf)
+
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7- Privilege escalation 
 
 # [FREE] THM Rooms Path
 
