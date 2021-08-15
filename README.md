@@ -92,7 +92,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Blaster https://tryhackme.com/room/blaster
  - [ ] Ignite https://tryhackme.com/room/ignite
  - [ ] Kenobi https://tryhackme.com/room/kenobi
- - [ ] Pickle Rick https://tryhackme.com/room/picklerick
+ - [X] Pickle Rick https://tryhackme.com/room/picklerick
 
  # Level 7 - CTF practice
  - [ ] Post Exploitation Basics https://tryhackme.com/room/postexploit
