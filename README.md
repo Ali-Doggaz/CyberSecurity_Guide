@@ -1,7 +1,7 @@
 # CyberSecurity_Guide
 This is an introductory guide to cybersecurity and bug bounty.
 
-# Topics/Tools Covered Above (check the folders) 
+# HTB Topics/Tools Covered Above, with their cheatsheets and my personal notes (check the folders) 
 
    &nbsp;&nbsp; You will find cheatsheets for the following topics: 
  
