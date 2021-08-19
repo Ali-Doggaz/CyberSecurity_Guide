@@ -119,3 +119,8 @@ This is an introductory guide to cybersecurity and bug bounty.
  2- TryHackMe rooms and guides
  
  3- https://skerritt.blog/free-rooms/ (free THM rooms path)
+ 
+ #CTFs I participated in:
+  1- MLH Batch 2 (spring) CTF (winner)
+  2- MLH batch 3 (summer) CTF
+  3- Holberton CTF
