@@ -75,7 +75,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Bolt https://tryhackme.com/room/bolt
 
  # Level 5 - Reverse Engineering
- - [ ] Intro to x86 64 https://tryhackme.com/room/introtox8664
+ - [X] Intro to x86 64 https://tryhackme.com/room/introtox8664
  - [ ] CC Ghidra https://tryhackme.com/room/ccghidra
  - [ ] CC Radare2 https://tryhackme.com/room/ccradare2
  - [ ] CC Steganography https://tryhackme.com/room/ccstego
