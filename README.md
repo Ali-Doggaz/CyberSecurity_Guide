@@ -71,7 +71,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [X] Overpass https://tryhackme.com/room/overpass
  - [ ] Year of the Rabbit https://tryhackme.com/room/yearoftherabbit
  - [X] DevelPy https://tryhackme.com/room/bsidesgtdevelpy
- - [ ] Jack of all trades https://tryhackme.com/room/jackofalltrades
+ - [X] Jack of all trades https://tryhackme.com/room/jackofalltrades
  - [ ] Bolt https://tryhackme.com/room/bolt
 
  # Level 5 - Reverse Engineering
