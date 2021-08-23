@@ -70,7 +70,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Ignite https://tryhackme.com/room/ignite
  - [X] Overpass https://tryhackme.com/room/overpass
  - [ ] Year of the Rabbit https://tryhackme.com/room/yearoftherabbit
- - [ ] DevelPy https://tryhackme.com/room/bsidesgtdevelpy
+ - [X] DevelPy https://tryhackme.com/room/bsidesgtdevelpy
  - [ ] Jack of all trades https://tryhackme.com/room/jackofalltrades
  - [ ] Bolt https://tryhackme.com/room/bolt
 
