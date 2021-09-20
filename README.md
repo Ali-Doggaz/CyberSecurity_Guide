@@ -112,14 +112,7 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Anthem https://tryhackme.com/room/anthem
  - [ ] Relevant https://tryhackme.com/room/relevant
 
-# Sources:
 
- 1- HackTheBox Academy
- 
- 2- TryHackMe rooms and guides
- 
- 3- https://skerritt.blog/free-rooms/ (free THM rooms path)
- 
  # CTFs I participated in:
  
 RQ: you can find some writeups on my Github profile, and ofc on the internet. Reading writeups and participating in CTFs is probably the best way to progress once you're used to HTB/THM rooms.
@@ -135,3 +128,12 @@ RQ: you can find some writeups on my Github profile, and ofc on the internet. Re
   5- Grabcon 2021 (top 20, 600+ active teams)
   
   (Team name: IdekJT)
+  
+  # Sources:
+
+ 1- HackTheBox Academy
+ 
+ 2- TryHackMe rooms and guides
+ 
+ 3- https://skerritt.blog/free-rooms/ (free THM rooms path)
+ 
