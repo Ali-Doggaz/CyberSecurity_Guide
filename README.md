@@ -120,7 +120,9 @@ This is an introductory guide to cybersecurity and bug bounty.
  
  3- https://skerritt.blog/free-rooms/ (free THM rooms path)
  
- #CTFs I participated in:
+ # CTFs I participated in:
+ 
+RQ: you can find some writeups on my Github profile, and ofc on the internet. Reading writeups and participating in CTFs is probably the best way to progress once you're used to HTB/THM rooms.
  
   1- MLH Batch 2 (spring) CTF (winner)
   
