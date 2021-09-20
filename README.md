@@ -121,6 +121,13 @@ This is an introductory guide to cybersecurity and bug bounty.
  3- https://skerritt.blog/free-rooms/ (free THM rooms path)
  
  #CTFs I participated in:
+ 
   1- MLH Batch 2 (spring) CTF (winner)
+  
   2- MLH batch 3 (summer) CTF
+  
   3- Holberton CTF
+  
+  4- Pbjar 2021 (top25, 872 teams)
+  
+  5- Grabcon 2021 (top 20, 600+ active teams)
