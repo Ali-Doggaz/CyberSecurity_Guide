@@ -127,7 +127,11 @@ RQ: you can find some writeups on my Github profile, and ofc on the internet. Re
   
   5- Grabcon 2021 (top 20, 600+ active teams)
   
-  (Team name: IdekJT)
+  Milestone: Joined "Idek" senior team!
+  
+  6- DownUnder CTF 2021 (top 6, 1594 teams)
+  
+
   
   # Sources:
 
