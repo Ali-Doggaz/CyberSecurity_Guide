@@ -127,9 +127,11 @@ RQ: you can find some writeups on my Github profile, and ofc on the internet. Re
   
   5- Grabcon 2021 (top 20, 600+ active teams)
   
+  6- CSAW 2021
+  
   Milestone: Joined "Idek" senior team!
   
-  6- DownUnder CTF 2021 (top 6, 1594 teams)
+  7- DownUnder CTF 2021 (top 6, 1594 teams)
   
 
   
