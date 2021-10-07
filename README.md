@@ -133,6 +133,8 @@ RQ: you can find some writeups on my Github profile, and ofc on the internet. Re
   
   7- DownUnder CTF 2021 (top 6, 1594 teams)
   
+  8- Snyk CTF - Top 3 
+  
 
   
   # Sources:
