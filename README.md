@@ -22,11 +22,11 @@ This is an introductory guide to cybersecurity and bug bounty.
 # [FREE] THM Rooms Path
 
  # Level 1 - Intro
- - [X] OpenVPN https://tryhackme.com/room/openvpn
- - [X] Welcome https://tryhackme.com/jr/welcome
+ - [ ] OpenVPN https://tryhackme.com/room/openvpn
+ - [ ] Welcome https://tryhackme.com/jr/welcome
  - [ ] Intro to Researching https://tryhackme.com/room/introtoresearch
- - [X] Learn Linux https://tryhackme.com/room/zthlinux
- - [X] Crash Course Pentesting https://tryhackme.com/room/ccpentesting
+ - [ ] Learn Linux https://tryhackme.com/room/zthlinux
+ - [ ] Crash Course Pentesting https://tryhackme.com/room/ccpentesting
 
  **Intductory CTFs to get your feet wet**
 
@@ -35,47 +35,47 @@ This is an introductory guide to cybersecurity and bug bounty.
  - [ ] Shodan.io https://tryhackme.com/room/shodan
 
  # Level 2 - Tooling
- - [X] Tmux https://tryhackme.com/room/rptmux
- - [X] Nmap https://tryhackme.com/room/rpnmap
+ - [ ] Tmux https://tryhackme.com/room/rptmux
+ - [ ] Nmap https://tryhackme.com/room/rpnmap
  - [ ] Sublist3r https://tryhackme.com/room/rpsublist3r
  - [ ] Metasploit https://tryhackme.com/room/rpmetasploit
- - [X] Hydra https://tryhackme.com/room/hydra
+ - [ ] Hydra https://tryhackme.com/room/hydra
  - [ ] Linux Privesc https://tryhackme.com/room/linuxprivesc
  - [ ] Web Scanning https://tryhackme.com/room/rpwebscanning
 
  **More introductory CTFs**
- - [X] RootMe
- - [X] Vulnversity - https://tryhackme.com/room/vulnversity
- - [X] Blue - https://tryhackme.com/room/blue
- - [X] Simple CTF https://tryhackme.com/room/easyctf
- - [X] Bounty Hacker https://tryhackme.com/room/cowboyhacker
- - [X] Mr. Robot (Intermediate/Beginner) - https://tryhackme.com/room/mrrobot 
+ - [ ] RootMe
+ - [ ] Vulnversity - https://tryhackme.com/room/vulnversity
+ - [ ] Blue - https://tryhackme.com/room/blue
+ - [ ] Simple CTF https://tryhackme.com/room/easyctf
+ - [ ] Bounty Hacker https://tryhackme.com/room/cowboyhacker
+ - [ ] Mr. Robot (Intermediate/Beginner) - https://tryhackme.com/room/mrrobot 
 
  # Level 3 - Crypto & Hashes with CTF practice
- - [X] Crack the hash https://tryhackme.com/room/crackthehash
- - [X] Agent Sudo https://tryhackme.com/room/agentsudoctf
+ - [ ] Crack the hash https://tryhackme.com/room/crackthehash
+ - [ ] Agent Sudo https://tryhackme.com/room/agentsudoctf
  - [ ] The Cod Caper https://tryhackme.com/room/thecodcaper
- - [X] Ice https://tryhackme.com/room/ice
- - [X] Lazy Admin https://tryhackme.com/room/lazyadmin
- - [x] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
- - [X] Capture the flag https://tryhackme.com/room/c4ptur3th3fl4g
+ - [ ] Ice https://tryhackme.com/room/ice
+ - [ ] Lazy Admin https://tryhackme.com/room/lazyadmin
+ - [ ] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
+ - [ ] Capture the flag https://tryhackme.com/room/c4ptur3th3fl4g
 
  # Level 4 - Web
  - [ ] OWASP top 10 https://tryhackme.com/room/owasptop10
  - [ ] Inclusion https://tryhackme.com/room/inclusion
  - [ ] Injection https://tryhackme.com/room/injection
- - [X] Vulnversity https://tryhackme.com/room/vulnversity
- - [X] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
+ - [ ] Vulnversity https://tryhackme.com/room/vulnversity
+ - [ ] Basic Pentesting https://tryhackme.com/room/basicpentestingjt
  - [ ] Juiceshop https://tryhackme.com/room/owaspjuiceshop
  - [ ] Ignite https://tryhackme.com/room/ignite
- - [X] Overpass https://tryhackme.com/room/overpass
+ - [ ] Overpass https://tryhackme.com/room/overpass
  - [ ] Year of the Rabbit https://tryhackme.com/room/yearoftherabbit
- - [X] DevelPy https://tryhackme.com/room/bsidesgtdevelpy
- - [X] Jack of all trades https://tryhackme.com/room/jackofalltrades
+ - [ ] DevelPy https://tryhackme.com/room/bsidesgtdevelpy
+ - [ ] Jack of all trades https://tryhackme.com/room/jackofalltrades
  - [ ] Bolt https://tryhackme.com/room/bolt
 
  # Level 5 - Reverse Engineering
- - [X] Intro to x86 64 https://tryhackme.com/room/introtox8664
+ - [ ] Intro to x86 64 https://tryhackme.com/room/introtox8664
  - [ ] CC Ghidra https://tryhackme.com/room/ccghidra
  - [ ] CC Radare2 https://tryhackme.com/room/ccradare2
  - [ ] CC Steganography https://tryhackme.com/room/ccstego
